@@ -1,0 +1,22 @@
+package Taller_5_POO;
+
+public class Empleado {
+    protected String nombre;
+    protected double salario;
+    public Empleado(){
+        
+    }
+
+    public Empleado(String nombre, double salario) {
+        this.nombre = nombre;
+        this.salario = salario;
+    }
+    public void mostrarInformacion(){
+        System.out.println("nombre:"+nombre);
+        System.out.println("Salario:"+salario);
+        
+    }
+
+        
+    
+}
